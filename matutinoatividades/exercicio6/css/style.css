@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1366px;
+    height: 768px;
+    background-color:#E9ECF9;
+    }
+    
+    
+    h1{
+        font-size: 16px;
+        font-family: "Nunito Sans",sans-serif;
+        font-weight: 700;
+        color: #02233C;
+        line-height: 22px;
+        width: 96px;
+        height: 22px;
+        position: absolute;
+        
+
+        }
+     p{
+         color: #555555;
+         font-size: 12px;
+         font-weight: 400;
+         font-family:"Nunito Sans",sans-serif;
+        line-height: 18px;
+        width: 173px;
+        height: 54px;
+        position: absolute;
+
+ }
+         
+    
+
+    
+
+.celular{
+    position: absolute;
+    width: 223px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);     
+
+    
+}
+
+.Camera{
+    position: absolute;
+    width: 299px;
+    left: 1121px;
+    top: -104px;
+
+}
+.pipoca{
+    position: absolute;
+    width: 263px;
+    left: -61px;
+    top: 513px;
+
+}
+div{
+    position: absolute;
+    width: 553px;
+    height: 493px;
+    left: 407px;
+    top: 137px;
+    }
+
+
