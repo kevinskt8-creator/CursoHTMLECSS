@@ -11,11 +11,19 @@
           table {
             width:  400px;
             border-collapse: collapse;
+            height:  400px;
           }
+          
 
       td {
             border: 1px solid black;
             padding:  8px;
+            text-align: center; /* alinhamento horizontal*/
+            vertical-align: middle; /* Alinhamento Vertical */
+        }
+        .numero {
+            text-align: right;
+
         }
     </style>
 
@@ -28,6 +36,7 @@
         TABLE HEADER = Cabeçalho de tabela
         TABLE DATA = dado de tabela
     -->
+       
     <table>
         <tr>
             <td>A1</td>
@@ -37,12 +46,12 @@
         <tr>
             <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">C2</td>
         </tr>
         <tr>
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr>
             <td>A4</td>
