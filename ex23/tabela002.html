@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td , th {
@@ -24,6 +25,15 @@
         thead , tfoot {
             background-color: gray;
             color: white ;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+        }
+
+        tbody > tr:nth-child(2n) { /* 2n-1 ou odd e even */
+            background-color: lightgray;
+
         }
         td.num {
             text-align: right;
@@ -80,7 +90,6 @@
                 <td class="num"><strog>210.147.125</strog></td>
             </tr>
         </tfoot>
-
     </table>
 </body>
 </html>
